@@ -6,6 +6,8 @@ import Frame4 from '../assets/Frame (4).svg'
 import Frame5 from '../assets/Frame (5).svg'
 import Frame6 from '../assets/Frame (6).svg'
 import Frame7 from '../assets/Frame (7).svg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Boostteam() {
     return (
@@ -81,28 +83,28 @@ function Boostteam() {
         <div className="flex flex-col lg:ml-70 lg:flex-row items-center lg:items-start px-4 lg:px-0">
             {/* Left Text Section */}
             <div className="w-full lg:w-1/3 mt-12 lg:mt-[120px] text-center lg:text-left">
-                <h1 className="text-4xl sm:text-5xl font-extrabold">
+                <h1 className="text-4xl sm:text-5xl font-extrabold" data-aos="fade-up" data-aos-delay="800">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         Boost Team
                     </span>
                 </h1>
-                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2">
+                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="700">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         performance with
                     </span>
                 </h1>
-                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2">
+                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="600">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         One Platform
                     </span>
                 </h1>
-                <p className="mt-4 sm:mt-6 text-gray-400 text-base sm:text-[20px]">
+                <p className="mt-4 sm:mt-6 text-gray-400 text-base sm:text-[20px]" data-aos="fade-up" data-aos-delay="500">
                     Boost Team performance with centralized communication, task tracking, and performance analytics in one seamless system.
                 </p>
             </div>
 
             {/* Right Circle Diagram */}
-            <div className="w-72 sm:w-96 lg:ml-80 h-72 sm:h-96 relative mt-12 lg:mt-[80px] mx-auto lg:ml-12">
+            <div className="w-72 sm:w-96 lg:ml-80 h-72 sm:h-96 relative mt-12 lg:mt-[80px] mx-auto lg:ml-12" data-aos="fade-up" data-aos-delay="800">
                 {/* Outer Circle */}
                 <div className="w-full h-full rounded-full border border-[#291F3D] relative flex items-center justify-center">
 
@@ -111,27 +113,27 @@ function Boostteam() {
 
                         {/* Icons positioned in circle using percentages */}
                         {/* Icon 1 - top */}
-                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="500">
                             <img src={Frame1} alt="" className="w-full h-full object-contain" />
                         </div>
                         {/* Icon 2 - right top */}
-                        <div className="absolute top-1/4 right-0 transform translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute top-1/4 right-0 transform translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="500">
                             <img src={Frame3} alt="" className="w-full h-full object-contain" />
                         </div>
                         {/* Icon 3 - right bottom */}
-                        <div className="absolute bottom-1/4 right-0 left-50 lg:left-68 transform translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute bottom-1/4 right-0 left-50 lg:left-68 transform translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="500">
                             <img src={Frame4} alt="" className="w-full h-full object-contain" />
                         </div>
                         {/* Icon 4 - bottom */}
-                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="700">
                             <img src={Frame5} alt="" className="w-full h-full object-contain" />
                         </div>
                         {/* Icon 5 - left bottom */}
-                        <div className="absolute bottom-1/4 left-0 transform -translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute bottom-1/4 left-0 transform -translate-x-1/2 translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="700">
                             <img src={Frame6} alt="" className="w-full h-full object-contain" />
                         </div>
                         {/* Icon 6 - left top */}
-                        <div className="absolute top-1/4 left-0 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2">
+                        <div className="absolute top-1/4 left-0 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-[#1F1F1F] border border-[#4C4C4C] rounded-full flex items-center justify-center p-2" data-aos="fade-up" data-aos-delay="600">
                             <img src={Frame7} alt="" className="w-full h-full object-contain" />
                         </div>
 

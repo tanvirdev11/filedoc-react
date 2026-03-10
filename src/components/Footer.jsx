@@ -3,6 +3,8 @@ import icon6 from '../assets/Icon (3).svg'
 import icon7 from '../assets/Icon (4).svg'
 import icon8 from '../assets/Icon (5).svg'
 import Frame from '../assets/Frame (10).svg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
     return (
@@ -68,7 +70,7 @@ const Footer = () => {
         //     </div>
         // </footer>
 
-        <footer className="w-full mt-10 bg-gradient-to-t from-[#544180] to-[#17131F] text-white">
+        <footer className="w-full mt-10 bg-gradient-to-t from-[#544180] to-[#17131F] text-white" data-aos="fade-up" data-aos-delay="700">
             <div className="max-w-[1440px] mx-auto px-6 py-16">
 
                 {/* Top Section */}
@@ -76,31 +78,31 @@ const Footer = () => {
 
                     {/* Logo + Description */}
                     <div className="lg:col-span-2">
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2" data-aos="fade-up" data-aos-delay="600">
                             <img src={Frame} alt="" className="w-10" />
                             <h1 className="text-2xl font-bold">FileDock</h1>
                         </div>
 
-                        <p className="text-[#A2A1A5] mt-4 max-w-sm">
+                        <p className="text-[#A2A1A5] mt-4 max-w-sm" data-aos="fade-up" data-aos-delay="700">
                             The cutting-edge platform for secure management of digital assets and
                             seamless team collaboration.
                         </p>
 
                         <div className="flex gap-4 mt-6">
-                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer">
+                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer" data-aos="fade-up" data-aos-delay="600">
                                 <img src={icon6} alt="" />
                             </div>
-                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer">
+                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer" data-aos="fade-up" data-aos-delay="700">
                                 <img src={icon7} alt="" />
                             </div>
-                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer hover:bg-white/10">
+                            <div className="border-t border-r border-[#FFFDFF] p-2 bg-gradient-to-r from-[#31254B] to-[#221B33] rounded-[10px] cursor-pointer hover:bg-white/10" data-aos="fade-up" data-aos-delay="800">
                                 <img src={icon8} alt="" />
                             </div>
                         </div>
                     </div>
 
                     {/* Product */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="600">
                         <h1 className="text-xl font-bold mb-3">Product</h1>
                         <ul className="space-y-2 text-[#99A1AF]">
                             <li className="cursor-pointer hover:text-white/60">Security</li>
@@ -112,7 +114,7 @@ const Footer = () => {
                     </div>
 
                     {/* Company */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="600">
                         <h1 className="text-xl font-bold mb-3">Company</h1>
                         <ul className="space-y-2 text-[#99A1AF]">
                             <li className="cursor-pointer hover:text-white/60">About Us</li>
@@ -124,7 +126,7 @@ const Footer = () => {
                     </div>
 
                     {/* Support */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="700">
                         <h1 className="text-xl font-bold mb-3">Support</h1>
                         <ul className="space-y-2 text-[#99A1AF]">
                             <li className="cursor-pointer hover:text-white/60">Help Center</li>
@@ -134,7 +136,7 @@ const Footer = () => {
                     </div>
 
                     {/* Resources */}
-                    <div>
+                    <div data-aos="fade-up" data-aos-delay="800">
                         <h1 className="text-xl font-bold mb-3">Resources</h1>
                         <ul className="space-y-2 text-[#99A1AF]">
                             <li className="cursor-pointer hover:text-white/60">Case Studies</li>
