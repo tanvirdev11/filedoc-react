@@ -384,18 +384,20 @@
 
 import icon4 from '../assets/Icon (7).svg';
 import icon5 from '../assets/Icon (6).svg';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Transparent() {
     return (
         <div className='mt-20 px-4 sm:px-6 lg:px-90'>
             {/* Header */}
-            <div className='text-center max-w-4xl mx-auto'>
+            <div className='text-center max-w-4xl mx-auto' data-aos="fade-up" data-aos-delay="600">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         Simple, Transparent Pricing
                     </span>
                 </h1>
-                <p className='text-white/40 mt-4 sm:mt-6 text-base sm:text-lg md:text-2xl'>
+                <p className='text-white/40 mt-4 sm:mt-6 text-base sm:text-lg md:text-2xl' data-aos="fade-up" data-aos-delay="700">
                     Choose the plan that fits your team's needs. All plans include a 14-day free trial.
                 </p>
             </div>
@@ -404,7 +406,7 @@ function Transparent() {
             <div className='mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
 
                 {/* Card 1 - Basic */}
-                <div className='w-full max-w-sm bg-gradient-to-r from-[#232323] to-[#1D1D1D] border border-[#494949] rounded-2xl flex flex-col justify-between'>
+                <div className='w-full max-w-sm bg-gradient-to-r from-[#232323] to-[#1D1D1D] border border-[#494949] rounded-2xl flex flex-col justify-between' data-aos="fade-up" data-aos-delay="700">
                     <div className='p-6'>
                         <h1 className='font-bold text-2xl sm:text-3xl text-white'>Basic</h1>
                         <p className='text-white/40 mt-1'>Perfect for small teams</p>
@@ -422,13 +424,13 @@ function Transparent() {
                             <div className='flex items-center'><img src={icon4} alt="" /><p className='text-white/40 ml-2'>Mobile apps</p></div>
                         </div>
                     </div>
-                    <div className='p-6'>
+                    <div className='p-6' data-aos="fade-up" data-aos-delay="500">
                         <button className='w-full text-white hover:bg-black/20 duration-300 px-6 py-2 rounded-xl border border-[#4B4B4B]'>Start Free Trial</button>
                     </div>
                 </div>
 
                 {/* Card 2 - Pro */}
-                <div className='w-full max-w-sm bg-black border border-[#9061FF] rounded-2xl flex flex-col justify-between'>
+                <div className='w-full max-w-sm bg-black border border-[#9061FF] rounded-2xl flex flex-col justify-between' data-aos="fade-up" data-aos-delay="600">
                     <div className='p-6'>
                         <div className='flex justify-between items-center'>
                             <h1 className='font-bold text-2xl sm:text-3xl text-white'>Pro</h1>
@@ -451,13 +453,13 @@ function Transparent() {
                             <div className='flex items-center'><img src={icon5} alt="" /><p className='text-white/40 ml-2'>Advanced analytics</p></div>
                         </div>
                     </div>
-                    <div className='p-6'>
+                    <div className='p-6' data-aos="fade-up" data-aos-delay="700">
                         <button className='w-full text-white bg-[#9061FF] hover:bg-[#714cc9] duration-300 px-6 py-2 rounded-xl'>Start Free Trial</button>
                     </div>
                 </div>
 
                 {/* Card 3 - Custom */}
-                <div className='w-full max-w-sm bg-gradient-to-r from-[#232323] to-[#1D1D1D] border border-[#494949] rounded-2xl flex flex-col justify-between'>
+                <div className='w-full max-w-sm bg-gradient-to-r from-[#232323] to-[#1D1D1D] border border-[#494949] rounded-2xl flex flex-col justify-between' data-aos="fade-up" data-aos-delay="600">
                     <div className='p-6'>
                         <h1 className='font-bold text-2xl sm:text-3xl text-white'>Custom</h1>
                         <p className='text-white/40 mt-1'>Perfect for small teams</p>
@@ -478,7 +480,7 @@ function Transparent() {
                             <div className='flex items-center'><img src={icon4} alt="" /><p className='text-white/40 ml-2'>Dedicated account manager</p></div>
                         </div>
                     </div>
-                    <div className='p-6'>
+                    <div className='p-6' data-aos="fade-up" data-aos-delay="700">
                         <button className='w-full text-white hover:bg-black/20 duration-300 px-6 py-2 rounded-xl border border-[#4B4B4B]'>Contact Sales</button>
                     </div>
                 </div>

@@ -27,19 +27,21 @@
 // export default Control;
 
 import arrow from "../assets/arrow-up-left-01 (1).svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Control() {
     return (
-        <div className='w-full mt-8 lg:mt-15 max-w-6xl mx-auto bg-[#221B33] rounded-3xl px-4 sm:px-6 lg:px-12 py-12 sm:py-16'>
+        <div className='w-full mt-8 lg:mt-15 max-w-6xl mx-auto bg-[#221B33] rounded-3xl px-4 sm:px-6 lg:px-12 py-12 sm:py-16' data-aos="fade-up" data-aos-delay="700">
 
             {/* Header */}
             <div className='text-center'>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold" data-aos="fade-up" data-aos-delay="600">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#A678FF]">
                         Take control of your
                     </span>
                 </h1>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mt-2">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="500">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#A678FF]">
                         team’s success
                     </span>
@@ -47,12 +49,12 @@ function Control() {
             </div>
 
             {/* Subtext */}
-            <p className='text-white/80 text-base sm:text-lg md:text-xl mt-4 text-center max-w-md mx-auto'>
+            <p className='text-white/80 text-base sm:text-lg md:text-xl mt-4 text-center max-w-md mx-auto' data-aos="fade-up" data-aos-delay="500">
                 Start organizing smarter and achieving more today.
             </p>
 
             {/* Button */}
-            <div className="mt-8 flex justify-center">
+            <div className="mt-8 flex justify-center" data-aos="fade-up" data-aos-delay="600">
                 <button className="bg-white duration-300 hover:bg-[#ddd] flex items-center pl-6 pr-2 py-1 rounded-full cursor-pointer h-[48px] transition">
                     Start Free Trial
                     <img
