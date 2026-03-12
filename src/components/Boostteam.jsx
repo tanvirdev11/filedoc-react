@@ -83,7 +83,7 @@ function Boostteam() {
         <div className="flex flex-col lg:ml-70 lg:flex-row items-center lg:items-start px-4 lg:px-0">
             {/* Left Text Section */}
             <div className="w-full lg:w-1/3 mt-12 lg:mt-[120px] text-center lg:text-left">
-                <h1 className="text-4xl sm:text-5xl font-extrabold" data-aos="fade-up" data-aos-delay="800">
+                <h1 className="text-4xl sm:text-5xl font-extrabold" data-aos="fade-up" data-aos-delay="700">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         Boost Team
                     </span>
@@ -93,7 +93,7 @@ function Boostteam() {
                         performance with
                     </span>
                 </h1>
-                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="600">
+                <h1 className="text-4xl sm:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="700">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-[#764bd3]">
                         One Platform
                     </span>

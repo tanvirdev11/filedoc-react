@@ -8,3 +8,19 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+
+    /* adjust according to content width */
+}
+
+.animate-scroll {
+    animation: scroll 16s linear infinite;
+}

@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="top-3 z-50">
+            <nav className="top-3 mt-7 z-50">
 
                 <div className="max-w-7xl mx-auto px-6 h-[80px] flex items-center justify-between">
 
