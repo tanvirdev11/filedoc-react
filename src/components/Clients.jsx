@@ -44,27 +44,68 @@ import "aos/dist/aos.css";
 
 const Clients = () => {
     return (
-        <div className="border-y-2 w-full justify-center border-white/5 flex overflow-x-auto no-scrollbar py-2 gap-6">
-            <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="500">
-                <img src={Vector1} alt="icon" className="w-8 h-8" />
-                <h1 className='text-white/40 font-bold text-[25px]'>Dropluxe</h1>
-            </div>
-            <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="500">
-                <img src={Vector} alt="icon" className="w-8 h-8" />
-                <h1 className='text-white/40 font-bold text-[25px]'>DashMark</h1>
-            </div>
-            <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="600">
-                <img src={group} alt="icon" className="w-8 h-8" />
-                <h1 className='text-white/40 font-bold text-[25px]'>Mindwandr</h1>
-            </div>
-            <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="700">
-                <h1 className='text-white/40 font-bold text-[25px]'>Corelink</h1>
-            </div>
-            <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="800">
-                <img src={Vector2} alt="icon" className="w-8 h-8" />
-                <h1 className='text-white/40 font-bold text-[25px]'>Quadric</h1>
+        // <div className="border-y-2 w-full justify-center border-white/5 flex overflow-x-auto no-scrollbar py-5 gap-6">
+        //     <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="500">
+        //         <img src={Vector1} alt="icon" className="w-8 h-8" />
+        //         <h1 className='text-white/40 font-bold text-[25px]'>Dropluxe</h1>
+        //     </div>
+        //     <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="500">
+        //         <img src={Vector} alt="icon" className="w-8 h-8" />
+        //         <h1 className='text-white/40 font-bold text-[25px]'>DashMark</h1>
+        //     </div>
+        //     <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="600">
+        //         <img src={group} alt="icon" className="w-8 h-8" />
+        //         <h1 className='text-white/40 font-bold text-[25px]'>Mindwandr</h1>
+        //     </div>
+        //     <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="700">
+        //         <h1 className='text-white/40 font-bold text-[25px]'>Corelink</h1>
+        //     </div>
+        //     <div className='flex items-center gap-2 ml-5 flex-shrink-0' data-aos="fade-up" data-aos-delay="800">
+        //         <img src={Vector2} alt="icon" className="w-8 h-8" />
+        //         <h1 className='text-white/40 font-bold text-[25px]'>Quadric</h1>
+        //     </div>
+        // </div>
+        <div className='border-y-2 border-white/5 py-5 justify-center flex'>
+
+            <div className='w-[1000px]'>
+                <div className="w-full overflow-hidden relative">
+                    <div className="flex gap-6 animate-scroll whitespace-nowrap">
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={Vector1} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>Dropluxe</h1>
+                        </div>
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={Vector} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>DashMark</h1>
+                        </div>
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={group} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>Mindwandr</h1>
+                        </div>
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <h1 className='text-white/40 font-bold text-[25px]'>Corelink</h1>
+                        </div>
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={Vector2} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>Quadric</h1>
+                        </div>
+
+                        {/* Repeat items for infinite scroll effect */}
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={Vector1} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>Dropluxe</h1>
+                        </div>
+                        <div className='flex items-center gap-2 flex-shrink-0'>
+                            <img src={Vector} alt="icon" className="w-8 h-8" />
+                            <h1 className='text-white/40 font-bold text-[25px]'>DashMark</h1>
+                        </div>
+                        {/* আরও ডুপ্লিকেট চাইলে repeat করতে হবে */}
+                    </div>
+                </div>
             </div>
         </div>
+
+
     )
 }
 

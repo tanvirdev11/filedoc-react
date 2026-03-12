@@ -44,7 +44,7 @@ function Workspace() {
                         Your Workspace to
                     </span>
                 </h1>
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="400">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mt-2" data-aos="fade-up" data-aos-delay="500">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#C7ACFF] to-[#FFFFFF]">
                         Your Workflow
                     </span>
